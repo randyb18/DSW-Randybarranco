@@ -5,20 +5,42 @@
 
 body{
     
-
-
-background: radial-gradient(1.5em 6.28571em at 1.95em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.25) 55%, rgba(255, 255, 255, 0) 55%) 0 0, radial-gradient(1.5em 6.28571em at -0.45em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.25) 55%, rgba(255, 255, 255, 0) 55%) 1.5em 5.5em, radial-gradient(2.3em 4.57143em at 2.99em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.3) 50%, rgba(255, 255, 255, 0.3) 55%, rgba(255, 255, 255, 0) 55%) 0 0, radial-gradient(2.3em 4.57143em at -0.69em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.3) 50%, rgba(255, 255, 255, 0.3) 55%, rgba(255, 255, 255, 0) 55%) 2.3em 4em, radial-gradient(3.5em 6.28571em at 4.55em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.25) 55%, rgba(255, 255, 255, 0) 55%) 0 0, radial-gradient(3.5em 6.28571em at -1.05em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.25) 55%, rgba(255, 255, 255, 0) 55%) 3.5em 5.5em, radial-gradient(#15ffa5, #00ced1);
-  background-color: mediumspringgreen;
-  background-size: 1.5em 11em, 1.5em 11em, 2.3em 8em, 2.3em 8em, 3.5em 11em, 3.5em 11em, 100% 100%;
+    background: 
+    /*shape*/
+    linear-gradient(115deg, transparent 89%, #e8ddcb 0) -128px -96px,
+    linear-gradient(-115deg, transparent 89%, #cdb380 0) 22px -96px,
+    linear-gradient(-115deg, #036564 11%, transparent 0) -128px 54px,
+    linear-gradient(115deg, #033649 11%, transparent 0) 22px 54px,
+    
+    /*shape*/
+    linear-gradient(-25deg, #e8ddcb 11%, transparent 0) -128px -22px,
+    linear-gradient(25deg, transparent 89%, #cdb380 0) -128px 128px,
+    linear-gradient(25deg, #036564 11%, transparent 0) 22px -22px,
+    linear-gradient(-25deg, transparent 89%, #033649 0) 22px 128px,
+    /*shape*/
+    linear-gradient(-25deg, #e8ddcb 11%, transparent 0) -53px -96px,
+    linear-gradient(25deg, transparent 89%, #cdb380 0) -53px 54px,
+    linear-gradient(25deg, #036564 11%, transparent 0) 97px -96px,
+    linear-gradient(-25deg, transparent 89%, #033649 0) 97px 54px,
+    /*shape*/
+    linear-gradient(115deg, transparent 89%, #e8ddcb  0) -53px -21px,
+    linear-gradient(-115deg, #cdb380 11%, transparent 0) -53px 129px,
+    linear-gradient(-115deg, transparent 89%, #036564 0) 97px -21px,
+    linear-gradient(115deg, #033649 11%, transparent 0) 97px 129px;
+    
+  background-color: #fff;
+  background-size: 150px 150px;
   background-repeat: repeat;
- }
+}
+  
  .title h1{
      padding: 20px 0;
      text-align: center;
      font-size: 2.9em;
+     text-transform: uppercase;
  }
  .container {
-     background: cornsilk;
+     background: #fff;
      width: 90%;
      max-width: 1000px;
      margin: 1.6em auto;
@@ -36,3 +58,47 @@ background: radial-gradient(1.5em 6.28571em at 1.95em, rgba(255, 255, 255, 0) 50
      padding: 20px;
      border: 1px solid #000000;
  }
+ .container .header,
+ .container .footer {
+     grid-column: 1/6;
+     background: #1e272e;
+     color: #ffffff;
+ }
+ .container .content {
+     grid-column: span 3;
+ }
+ .content article {
+     background: #66db2288;
+     padding: 20px;
+     margin-top: 5px;
+     color: 032c;
+ }
+ .container article h1,
+ .container article p {
+     padding: 10px;
+ }
+ .container .sidebar img {
+     width: 100%;
+     margin-top: 5px;
+ }
+ .container .sidebar {
+     grid-column: span 2;
+     background: #66db2288;
+     color: #ffffff;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+ }
+ .container .related-post {
+     background: #033649;
+     color: #ffffff;
+     height: 180px;
+     display: flex;
+     border: 1px solid #000000;
+     align-items: center;
+     justify-content: center;
+ 
+ }
+
+    
