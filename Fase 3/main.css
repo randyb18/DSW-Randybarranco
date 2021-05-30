@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body{
@@ -100,5 +101,27 @@ body{
      justify-content: center;
  
  }
+ .container .related-post:hover{
+     color: aqua;
+     transition: all 0.5s ease;
+ }
+.navegacion ul {
+    list-style: none ;
+}
 
-    
+.menu > li {
+    display: inline-block;
+}
+
+.menu > li > a {
+    display: block;
+    padding: 15px 20px;
+    color: #ffffff;
+    font-family: open sans;
+    text-decoration: none;
+   
+}
+.menu li a:hover {
+    color:#033649
+}
+ 
