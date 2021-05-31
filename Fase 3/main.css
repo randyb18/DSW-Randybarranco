@@ -44,7 +44,7 @@ body{
      background: #fff;
      width: 90%;
      max-width: 1000px;
-     margin: 1.6em auto;
+     margin: 1.9em auto;
 
      display: grid;
      gap: 1.6em;
@@ -62,7 +62,7 @@ body{
  .container .header,
  .container .footer {
      grid-column: 1/6;
-     background: #1e272e;
+     background: #000000;
      color: #ffffff;
  }
  .container .content {
@@ -103,37 +103,58 @@ body{
  }
  .container .related-post:hover{
      color: aqua;
-    
- }
- *{
-     margin: 0;
-     padding: 0;
-     -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-     box-sizing: border-box;
  }
 
- .navegacion{
-    background-size: 150px 150px;
- }
-.navegacion ul {
-    list-style: none ;
+*{
+    margin: 0;
+    padding: 0;
 }
-
-.menu > li {
-    
-    display: inline-block;
+header{
+    width: 96%;
 }
-
-.menu > li > a {
+nav{
+    margin: 10px auto;
+    width: 96%;
+    max-width: 1200px;
+}
+nav ul{
+    list-style: none;
+}
+nav > ul{
+    display: table;
+    overflow: hidden;
+    width: 100%;
+    background: #000;
+    position: relative;
+}
+nav >ul li {
+    display: table-cell;
+}
+nav >ul >li >ul{
+    display: none;
+    
+}
+nav >ul li a{
+    color: #fff;
     display: block;
-    padding: 20px 20px;
-    color: #ffffff;
-    font-family: 'open sans';
+    line-height: 20px;
+    padding: 20px;
+    position: relative;
+    text-align: center;
     text-decoration: none;
-   
+    -webkit-transition: todos los 3 se facilitan; 
+    -moz-transition: todos los 3 se facilitan; 
+    -ms-transition: todos los 3 se facilitan; 
+    -o-transition: facilidad de los 3; 
+    transition: todos los 3 se facilitan;
 }
-.menu li a:hover {
-    color:#af910c
+nav > ul > li > ul> li a:hover{
+    background: #31c0b9;
+    transition: all .3s;
 }
- 
+nav> ul> li:hover>ul{
+display: block;
+height: 100%;
+}
+
+
