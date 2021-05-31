@@ -32,3 +32,8 @@ thead{
     border-bottom: solid 5px #19af8c;
     color: #ffffff;
 }
+
+tr:hover{
+    background-color: #369681;
+    color: #fff;
+}
