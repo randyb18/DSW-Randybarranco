@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    
 }
 
 body{
@@ -103,25 +103,37 @@ body{
  }
  .container .related-post:hover{
      color: aqua;
-     transition: all 0.5s ease;
+    
+ }
+ *{
+     margin: 0;
+     padding: 0;
+     -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+     box-sizing: border-box;
+ }
+
+ .navegacion{
+    background-size: 150px 150px;
  }
 .navegacion ul {
     list-style: none ;
 }
 
 .menu > li {
+    
     display: inline-block;
 }
 
 .menu > li > a {
     display: block;
-    padding: 15px 20px;
+    padding: 20px 20px;
     color: #ffffff;
-    font-family: open sans;
+    font-family: 'open sans';
     text-decoration: none;
    
 }
 .menu li a:hover {
-    color:#033649
+    color:#af910c
 }
  
