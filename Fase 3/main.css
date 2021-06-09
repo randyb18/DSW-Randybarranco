@@ -1,177 +1,35 @@
 *{
-    margin: 0;
-    padding: 0;
+    margin: 5px;
+    border-radius: 3px;
     
 }
-
-body{
-    
-    background: 
-    /*shape*/
-    linear-gradient(115deg, transparent 89%, #e8ddcb 0) -128px -96px,
-    linear-gradient(-115deg, transparent 89%, #cdb380 0) 22px -96px,
-    linear-gradient(-115deg, #036564 11%, transparent 0) -128px 54px,
-    linear-gradient(115deg, #033649 11%, transparent 0) 22px 54px,
-    
-    /*shape*/
-    linear-gradient(-25deg, #e8ddcb 11%, transparent 0) -128px -22px,
-    linear-gradient(25deg, transparent 89%, #cdb380 0) -128px 128px,
-    linear-gradient(25deg, #036564 11%, transparent 0) 22px -22px,
-    linear-gradient(-25deg, transparent 89%, #033649 0) 22px 128px,
-    /*shape*/
-    linear-gradient(-25deg, #e8ddcb 11%, transparent 0) -53px -96px,
-    linear-gradient(25deg, transparent 89%, #cdb380 0) -53px 54px,
-    linear-gradient(25deg, #036564 11%, transparent 0) 97px -96px,
-    linear-gradient(-25deg, transparent 89%, #033649 0) 97px 54px,
-    /*shape*/
-    linear-gradient(115deg, transparent 89%, #e8ddcb  0) -53px -21px,
-    linear-gradient(-115deg, #cdb380 11%, transparent 0) -53px 129px,
-    linear-gradient(-115deg, transparent 89%, #036564 0) 97px -21px,
-    linear-gradient(115deg, #033649 11%, transparent 0) 97px 129px;
-    
-  background-color: #fff;
-  background-size: 150px 150px;
-  background-repeat: repeat;
+header{
+    background-color: rgb(27, 212, 212);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-  
- .title h1{
-     padding: 20px 0;
-     text-align: center;
-     font-size: 2.9em;
-     text-transform: uppercase;
- }
- .container {
-     background: #fff;
-     width: 100%;
-     max-width: 1000px;
-     margin: 1.6em auto;
 
-     display: grid;
-     gap: 1.6em;
-     grid-template-columns: repeat(5, 1fr);
- }
- .container> .header,
- .container> .content,
- .container> .sidebar,
- .container> .footer,
- .container> .div {
-     background: #fff;
-     padding: 20px;
-     border: 1px solid #000000;
- }
- .container .header,
- .container .footer {
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.container .header
+  {
      grid-column: 1/6;
      background: #000000;
      color: #ffffff;
  }
- .container .content {
-     grid-column: span 3;
+ aside{
+     grid-column: 1/2;
+     background-color: yellow;
  }
- .content article {
-     background: #66db2288;
-     padding: 20px;
-     margin-top: 5px;
-     color:#000000;
+ footer{
+    grid-column: 1/6;
+    background: #000000;
+    color: #ffffff;
  }
- .container article h1,
- .container article p {
-     padding: 10px;
+ section{
+     grid-column: 2/5;
+     background-color: tomato;
  }
- .container .sidebar img {
-     width: 100%;
-     margin-top: 10px;
- }
- .container .sidebar {
-     grid-column: span 2;
-     background: #66db2288;
-     color: #000000;
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     flex-direction: column;
- }
- .container .related-post {
-     background: #033649;
-     color: #ffffff;
-     height: 120px;
-     display: flex;
-     border: 2px solid #000000;
-     align-items: center;
-     justify-content: center;
-     
- 
- }
- .container .related-post:hover{
-     color: aqua;
- }
-
-*{
-    margin: 0;
-    padding: 0;
-}
-header{
-    width: 96%;
-}
-nav{
-    margin: 10px auto;
-    width: 96%;
-    max-width: 1200px;
-}
-nav ul{
-    list-style: none;
-}
-nav > ul{
-    display: table;
-    overflow: hidden;
-    width: 100%;
-    background: #000;
-    position: relative;
-}
-nav >ul li {
-    display: table-cell;
-}
-nav >ul >li >ul{
-    display: none;
-    
-}
-nav >ul li a{
-    color: #fff;
-    display: block;
-    line-height: 20px;
-    padding: 20px;
-    position: relative;
-    text-align: center;
-    text-decoration: none;
-    -webkit-transition: todos los 3 se facilitan; 
-    -moz-transition: todos los 3 se facilitan; 
-    -ms-transition: todos los 3 se facilitan; 
-    -o-transition: facilidad de los 3; 
-    transition: todos los 3 se facilitan;
-}
-nav > ul > li > ul> li a:hover{
-    background: #31c0b9;
-    transition: all .3s;
-}
-nav> ul> li:hover>ul{
-display: block;
-height: 100%;
-}
-
-@media screen  and (max-width:500px){
-.header{
-    text-align: center;
-
-}
-}
-/*
-.container .content{
-    grid-column: 1/-6;
-}
-.container  .sidebar{
-    grid-column: 1/-6;
-}   
-.container .related-post{
-    grid-column: 1/-6;
-}*/
-
