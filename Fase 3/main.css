@@ -20,6 +20,7 @@ header{
  aside{
      grid-column: 1/2;
      background-color: yellow;
+
  }
  footer{
     grid-column: 1/6;
@@ -27,12 +28,17 @@ header{
     color: #ffffff;
     padding: 10px;
     text-align: center;
+    
+        
  }
  section{
      grid-column: 2/5;
      background-color: tomato;
- }
      
+ }
+     #imag{
+         display: grid;
+     }
  .menu {
     background: #000000;
     color: #ffffff;
@@ -95,3 +101,6 @@ tr:hover{
     background-color: rgba(21, 101, 221, 0.76);
     color: white;
 }
+
+  
+  
