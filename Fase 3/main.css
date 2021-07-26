@@ -16,7 +16,7 @@ header{
 
 .container{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
 }
 
  aside{
@@ -30,9 +30,7 @@ header{
     color: #ffffff;
     padding: 10px;
     text-align: center;
-    
-    
-        
+       
  }
  section{
      grid-column: 2/5;
