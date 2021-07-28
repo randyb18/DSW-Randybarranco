@@ -6,103 +6,42 @@
 }
 
  header{
-    background-color: rgb(27, 212, 212);
+    background-color: orange;
     display: flex;
     justify-content: space-between;
     align-items: center;
     
 } 
 
-/* .container{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr ;
-} */
-
   .contenedor aside{
      float: left;
      background-color: yellow;
-
+    
  } 
  footer{
     grid-column: 1/6;
     background: #000000;
     color: #ffffff;
-    padding: 10px;
+
     text-align: center;
+    
        
  }
  .contenedor section{
-    width: 100%;
+    width: 99%;
     background-color: orangered;
 }
+  
 
-    
-     
-
-     #imag{
+      #imag{
          display: grid;
+     } 
+
+     .containerx nav{
+       
+        align-items: center;
+        justify-content: center;      
+        height: 50px;
+            
      }
- /* .menu {
-    background: #000000;
-    color: #ffffff;
-    padding: 5px;
-    text-align: center;
-    display: flex;
-    width: 347%;
- }
- nav ul{
-     list-style: none;
-     padding: 5px;
-     color: #ffffff;
-     background: #000000;
-    
- }
- .menu li{
-     width: 150%;
-     text-align: center;
- }
-.menu a {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: beige;
-    background: orangered;
-    height: 25px;
-    text-decoration: none;     
-}
-.dropdown li {
-    display: none;
-}
-.menu li:hover  .dropdown li{
-    display: block;
-}
-.menu a:hover {
-    background: blueviolet;
-    color: cornsilk;
-}
-#main-container{
-    margin: 150px auto;
-    width: 600px;
-}
-table{
-    background-color: cornsilk;
-    text-align: left;
-    border-collapse: collapse;
-    width: 100%;
-}
-
-th, td{
-    border: solid 1px black;
-    padding: 20px;
-}
-thead{
-    background-color: #246355;
-    border-bottom: solid 5px #5f184d;
-    color: white;
-}
-tr:hover{
-    background-color: rgba(21, 101, 221, 0.76);
-    color: white;
-}*/
-
-
+ 
