@@ -62,5 +62,16 @@
     display: block; 
   }  
   
+  @media(max-width:600px) {
+    .contenedor {
+        background-color: violet;
+    }
+
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
   
+ 
   
