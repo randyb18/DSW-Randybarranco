@@ -33,15 +33,34 @@
 }
   
 
-      #imag{
+     #imag{
          display: grid;
-     } 
+    } 
 
      .containerx nav{
        
         align-items: center;
         justify-content: center;      
         height: 50px;
+        
             
      }
- 
+      a:hover {
+        background: rgb(228, 80, 11);
+        color: rgb(141, 52, 17);
+        display: flex;
+     }
+   .containerx li:hover{
+    background: rgb(197, 22, 22);
+    color: rgba(75, 18, 87, 0);
+}
+.containerx .dropdown li:hover>a{
+    background: gold;   
+    text-decoration:none;
+}
+.containerx li:hover > ul { 
+    display: block; 
+  }  
+  
+  
+  
