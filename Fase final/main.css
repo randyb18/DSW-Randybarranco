@@ -34,7 +34,7 @@ header{
  }
  section{
      grid-column: 2/5;
-     background-color: tomato;
+     background-color: rgb(71, 99, 255);
      
  }
      #imag{
@@ -64,7 +64,7 @@ header{
     align-items: center;
     justify-content: center;
     color: beige;
-    background: orangered;
+    background: rgba(255, 0, 0, 0.473);
     height: 25px;
     text-decoration: none;    
 }
